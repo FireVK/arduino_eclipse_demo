@@ -1,0 +1,455 @@
+00000000 W __heap_end
+00000000 a __tmp_reg__
+00000000 a __tmp_reg__
+00000000 a __tmp_reg__
+00000000 a __tmp_reg__
+00000000 a __tmp_reg__
+00000000 a __tmp_reg__
+00000000 a __tmp_reg__
+00000000 a __tmp_reg__
+00000000 a __tmp_reg__
+00000000 a __tmp_reg__
+00000000 a __tmp_reg__
+00000000 a __tmp_reg__
+00000000 a __tmp_reg__
+00000000 a __tmp_reg__
+00000000 a __tmp_reg__
+00000000 a __tmp_reg__
+00000000 a __tmp_reg__
+00000000 a __tmp_reg__
+00000000 a __tmp_reg__
+00000000 a __tmp_reg__
+00000000 a __tmp_reg__
+00000000 a __tmp_reg__
+00000000 a __tmp_reg__
+00000000 a __tmp_reg__
+00000000 a __tmp_reg__
+00000000 a __tmp_reg__
+00000000 a __tmp_reg__
+00000000 a __tmp_reg__
+00000000 a __tmp_reg__
+00000000 a __tmp_reg__
+00000000 a __tmp_reg__
+00000000 a __tmp_reg__
+00000000 a __tmp_reg__
+00000000 a __tmp_reg__
+00000000 W __vector_default
+00000000 T __vectors
+00000001 a __zero_reg__
+00000001 a __zero_reg__
+00000001 a __zero_reg__
+00000001 a __zero_reg__
+00000001 a __zero_reg__
+00000001 a __zero_reg__
+00000001 a __zero_reg__
+00000001 a __zero_reg__
+00000001 a __zero_reg__
+00000001 a __zero_reg__
+00000001 a __zero_reg__
+00000001 a __zero_reg__
+00000001 a __zero_reg__
+00000001 a __zero_reg__
+00000001 a __zero_reg__
+00000001 a __zero_reg__
+00000001 a __zero_reg__
+00000001 a __zero_reg__
+00000001 a __zero_reg__
+00000001 a __zero_reg__
+00000001 a __zero_reg__
+00000001 a __zero_reg__
+00000001 a __zero_reg__
+00000001 a __zero_reg__
+00000001 a __zero_reg__
+00000001 a __zero_reg__
+00000001 a __zero_reg__
+00000001 a __zero_reg__
+00000001 a __zero_reg__
+00000001 a __zero_reg__
+00000001 a __zero_reg__
+00000001 a __zero_reg__
+00000001 a __zero_reg__
+00000001 a __zero_reg__
+00000034 a __CCP__
+00000034 a __CCP__
+00000034 a __CCP__
+00000034 a __CCP__
+00000034 a __CCP__
+00000034 a __CCP__
+00000034 a __CCP__
+00000034 a __CCP__
+00000034 a __CCP__
+00000034 a __CCP__
+00000034 a __CCP__
+00000034 a __CCP__
+00000034 a __CCP__
+00000034 a __CCP__
+00000034 a __CCP__
+00000034 a __CCP__
+00000034 a __CCP__
+00000034 a __CCP__
+00000034 a __CCP__
+00000034 a __CCP__
+00000034 a __CCP__
+00000034 a __CCP__
+00000034 a __CCP__
+00000034 a __CCP__
+00000034 a __CCP__
+00000034 a __CCP__
+00000034 a __CCP__
+00000034 a __CCP__
+00000034 a __CCP__
+00000034 a __CCP__
+00000034 a __CCP__
+00000034 a __CCP__
+00000034 a __CCP__
+00000034 a __CCP__
+0000003d a __SP_L__
+0000003d a __SP_L__
+0000003d a __SP_L__
+0000003d a __SP_L__
+0000003d a __SP_L__
+0000003d a __SP_L__
+0000003d a __SP_L__
+0000003d a __SP_L__
+0000003d a __SP_L__
+0000003d a __SP_L__
+0000003d a __SP_L__
+0000003d a __SP_L__
+0000003d a __SP_L__
+0000003d a __SP_L__
+0000003d a __SP_L__
+0000003d a __SP_L__
+0000003d a __SP_L__
+0000003d a __SP_L__
+0000003d a __SP_L__
+0000003d a __SP_L__
+0000003d a __SP_L__
+0000003d a __SP_L__
+0000003d a __SP_L__
+0000003d a __SP_L__
+0000003d a __SP_L__
+0000003d a __SP_L__
+0000003d a __SP_L__
+0000003d a __SP_L__
+0000003d a __SP_L__
+0000003d a __SP_L__
+0000003d a __SP_L__
+0000003d a __SP_L__
+0000003d a __SP_L__
+0000003d a __SP_L__
+0000003e a __SP_H__
+0000003e a __SP_H__
+0000003e a __SP_H__
+0000003e a __SP_H__
+0000003e a __SP_H__
+0000003e a __SP_H__
+0000003e a __SP_H__
+0000003e a __SP_H__
+0000003e a __SP_H__
+0000003e a __SP_H__
+0000003e a __SP_H__
+0000003e a __SP_H__
+0000003e a __SP_H__
+0000003e a __SP_H__
+0000003e a __SP_H__
+0000003e a __SP_H__
+0000003e a __SP_H__
+0000003e a __SP_H__
+0000003e a __SP_H__
+0000003e a __SP_H__
+0000003e a __SP_H__
+0000003e a __SP_H__
+0000003e a __SP_H__
+0000003e a __SP_H__
+0000003e a __SP_H__
+0000003e a __SP_H__
+0000003e a __SP_H__
+0000003e a __SP_H__
+0000003e a __SP_H__
+0000003e a __SP_H__
+0000003e a __SP_H__
+0000003e a __SP_H__
+0000003e a __SP_H__
+0000003e a __SP_H__
+0000003f a __SREG__
+0000003f a __SREG__
+0000003f a __SREG__
+0000003f a __SREG__
+0000003f a __SREG__
+0000003f a __SREG__
+0000003f a __SREG__
+0000003f a __SREG__
+0000003f a __SREG__
+0000003f a __SREG__
+0000003f a __SREG__
+0000003f a __SREG__
+0000003f a __SREG__
+0000003f a __SREG__
+0000003f a __SREG__
+0000003f a __SREG__
+0000003f a __SREG__
+0000003f a __SREG__
+0000003f a __SREG__
+0000003f a __SREG__
+0000003f a __SREG__
+0000003f a __SREG__
+0000003f a __SREG__
+0000003f a __SREG__
+0000003f a __SREG__
+0000003f a __SREG__
+0000003f a __SREG__
+0000003f a __SREG__
+0000003f a __SREG__
+0000003f a __SREG__
+0000003f a __SREG__
+0000003f a __SREG__
+0000003f a __SREG__
+0000003f a __SREG__
+00000068 T port_to_mode_PGM
+00000072 T port_to_output_PGM
+0000007c T port_to_input_PGM
+00000086 T digital_pin_to_port_PGM
+0000009a T digital_pin_to_bit_mask_PGM
+000000ae T digital_pin_to_timer_PGM
+000000c2 T __ctors_start
+000000c2 T __trampolines_end
+000000c2 T __trampolines_start
+000000d8 T __ctors_end
+000000d8 T __dtors_end
+000000d8 T __dtors_start
+000000d8 W __init
+000000e4 T __do_copy_data
+000000f0 t .do_copy_data_loop
+000000f4 t .do_copy_data_start
+000000fa T __do_clear_bss
+00000102 t .do_clear_bss_loop
+00000104 t .do_clear_bss_start
+0000010a T __do_global_ctors
+00000112 t .do_global_ctors_loop
+0000011a t .do_global_ctors_start
+00000128 T __bad_interrupt
+00000128 W __vector_1
+00000128 W __vector_10
+00000128 W __vector_12
+00000128 W __vector_13
+00000128 W __vector_14
+00000128 W __vector_15
+00000128 W __vector_17
+00000128 W __vector_2
+00000128 W __vector_20
+00000128 W __vector_21
+00000128 W __vector_22
+00000128 W __vector_23
+00000128 W __vector_25
+00000128 W __vector_6
+00000128 W __vector_7
+00000128 W __vector_8
+00000128 W __vector_9
+0000012a T memset
+00000138 T strlen
+0000014a T loop
+0000018c T setup
+000001b4 T twi_transmit
+000001ea T __vector_24
+0000050c W Print::setWriteError(int)
+0000053a W Print::Print()
+00000566 W Stream::Stream()
+000005a4 T TwoWire::TwoWire()
+000005ce T TwoWire::available()
+000005fe T TwoWire::read()
+00000656 T TwoWire::peek()
+000006a4 T TwoWire::flush()
+000006bc t __static_initialization_and_destruction_0(int, int)
+000006fa t global constructors keyed to _ZN7TwoWire8rxBufferE
+00000712 T TwoWire::write(unsigned char const*, unsigned int)
+000007a2 T TwoWire::write(unsigned char)
+00000820 W DebugPulse(unsigned char, unsigned char)
+00000838 W SoftwareSerial::tunedDelay(unsigned int)
+0000086c T SoftwareSerial::rx_pin_read()
+00000898 T SoftwareSerial::recv()
+000008ff W __stack
+000009ee W SoftwareSerial::handle_interrupt()
+00000a12 T __vector_3
+00000a64 T __vector_4
+00000ab6 T __vector_5
+00000b08 t handle_interrupts(timer16_Sequence_t, unsigned int volatile*, unsigned int volatile*)
+00000dfa T __vector_11
+00000e58 W Sd2Card::type() const
+00000e76 W Sd2Card::error(unsigned char)
+00000e9c t spiSend(unsigned char)
+00000ed0 t spiRec()
+00000ee8 T Sd2Card::waitNotBusy(unsigned int)
+00000f66 T Sd2Card::chipSelectLow()
+00000f8a T Sd2Card::chipSelectHigh()
+00000fae T Sd2Card::writeData(unsigned char, unsigned char const*)
+000010b2 T Sd2Card::waitStartBlock()
+00001160 T Sd2Card::readEnd()
+00001212 T Sd2Card::cardCommand(unsigned char, unsigned long)
+000012e8 T Sd2Card::writeBlock(unsigned long, unsigned char const*)
+00001426 T Sd2Card::readData(unsigned long, unsigned int, unsigned int, unsigned char*)
+00001690 T Sd2Card::readBlock(unsigned long, unsigned char*)
+000016f6 W SdFile::SdFile()
+00001728 W SdFile::isDir() const
+00001756 W SdFile::isFile() const
+00001784 W SdFile::isOpen() const
+000017b4 W SdVolume::blockOfCluster(unsigned long) const
+00001806 W SdVolume::clusterStartBlock(unsigned long) const
+0000189e W SdVolume::cacheSetDirty()
+000018b6 W SdVolume::isEOC(unsigned long) const
+00001936 T SdFile::seekSet(unsigned long)
+00001b80 W SdFile::seekEnd()
+00001bae T SdFile::cacheDirEntry(unsigned char)
+00001c26 T SdFile::sync()
+00001d3c W SdVolume::writeBlock(unsigned long, unsigned char const*)
+00001d8e W SdVolume::fatPutEOC(unsigned long)
+00001ddc T SdFile::addCluster()
+00001e6c T SdFile::write(void const*, unsigned int)
+000022fa T SdFile::write(unsigned char)
+0000232a T SdVolume::cacheFlush()
+000023f2 T SdVolume::cacheRawBlock(unsigned long, unsigned char)
+000024b4 T SdVolume::fatPut(unsigned long, unsigned long)
+00002694 T SdVolume::fatGet(unsigned long, unsigned long*) const
+0000282e T SdVolume::allocContiguous(unsigned long, unsigned long*)
+00002b28 W Sd2Card::Sd2Card()
+00002b58 W SdVolume::SdVolume()
+00002b8a W SDClass::SDClass()
+00002bba t __static_initialization_and_destruction_0(int, int)
+00002bf8 t global constructors keyed to _Z20getNextPathComponentPcPjS_
+00002c10 T FirmataClass::systemReset()
+00002c88 T FirmataClass::FirmataClass(Stream&)
+00002cc2 t __static_initialization_and_destruction_0(int, int)
+00002d06 t global constructors keyed to _ZN12FirmataClass23sendValueAsTwo7bitBytesEi
+00002d1e t __static_initialization_and_destruction_0(int, int)
+00002d68 t global constructors keyed to _ZN9DhcpClass13beginWithDHCPEPhmm
+00002d80 t __static_initialization_and_destruction_0(int, int)
+00002dca t global constructors keyed to _ZN9DNSClient5beginERK9IPAddress
+00002de2 W EthernetClass::EthernetClass()
+00002e00 t __static_initialization_and_destruction_0(int, int)
+00002e50 t global constructors keyed to _ZN13EthernetClass6_stateE
+00002e68 t __static_initialization_and_destruction_0(int, int)
+00002eb2 t global constructors keyed to _ZN14EthernetClient8_srcportE
+00002eca t __static_initialization_and_destruction_0(int, int)
+00002f14 t global constructors keyed to _ZN14EthernetServerC2Ej
+00002f2c t __static_initialization_and_destruction_0(int, int)
+00002f76 t global constructors keyed to _ZN11EthernetUDPC2Ev
+00002f8e W store_char(unsigned char, ring_buffer*)
+0000301e W serialEvent()
+0000302c T __vector_18
+000030c0 T __vector_19
+00003168 T HardwareSerial::HardwareSerial(ring_buffer*, ring_buffer*, unsigned char volatile*, unsigned char volatile*, unsigned char volatile*, unsigned char volatile*, unsigned char volatile*, unsigned char volatile*, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char)
+00003276 T HardwareSerial::available()
+000032c2 W serialEventRun()
+000032ec T HardwareSerial::peek()
+0000337c T HardwareSerial::read()
+0000343c T HardwareSerial::flush()
+00003492 T HardwareSerial::write(unsigned char)
+0000358e t __static_initialization_and_destruction_0(int, int)
+0000365e t global constructors keyed to rx_buffer
+00003676 W Printable::Printable()
+0000369a T IPAddress::IPAddress(unsigned char, unsigned char, unsigned char, unsigned char)
+000036fc t __static_initialization_and_destruction_0(int, int)
+00003746 t global constructors keyed to _ZN9IPAddressC2Ev
+0000375e T IPAddress::printTo(Print&) const
+00003810 T IPAddress::IPAddress()
+0000384c T Print::write(unsigned char const*, unsigned int)
+000038dc T Print::print(char)
+00003914 W Print::write(char const*)
+0000398c T Print::printNumber(unsigned long, unsigned char)
+00003a7c T Print::print(unsigned long, int)
+00003af8 T Print::print(unsigned char, int)
+00003b3a T main
+00003b58 T __cxa_pure_virtual
+00003b66 T __vector_16
+00003bf6 T millis
+00003c12 T delay
+00003cc4 T init
+00003d3a T pinMode
+00003db8 T digitalWrite
+00003e60 T __mulsi3
+00003e9e T __divmodhi4
+00003e9e T _div
+00003eb2 t __divmodhi4_neg2
+00003eb8 t __divmodhi4_exit
+00003eba t __divmodhi4_neg1
+00003ec4 T __udivmodsi4
+00003ed0 t __udivmodsi4_loop
+00003eea t __udivmodsi4_ep
+00003f08 T __udivmodhi4
+00003f10 t __udivmodhi4_loop
+00003f1e t __udivmodhi4_ep
+00003f30 T __tablejump2__
+00003f34 T __tablejump__
+00003f3c T _exit
+00003f3c W exit
+00003f3e t __stop_program
+00003f40 A __data_load_start
+00003f40 T _etext
+00003f92 A __data_load_end
+00800100 D __data_start
+00800100 D led
+00800102 D SdVolume::cacheBlockNumber_
+00800106 V vtable for TwoWire
+00800116 V vtable for Stream
+00800126 V vtable for SdFile
+0080012e V vtable for Printable
+00800134 V vtable for HardwareSerial
+00800144 V vtable for IPAddress
+0080014a V vtable for Print
+00800152 B __bss_start
+00800152 D __data_end
+00800152 D _edata
+00800152 b twi_state
+00800153 b twi_slarw
+00800154 b twi_sendStop
+00800155 b twi_inRepStart
+00800156 b twi_onSlaveTransmit
+00800158 b twi_onSlaveReceive
+0080015a b twi_masterBuffer
+0080017a b twi_masterBufferIndex
+0080017b b twi_masterBufferLength
+0080017c b twi_txBuffer
+0080019c b twi_txBufferIndex
+0080019d b twi_txBufferLength
+0080019e b twi_rxBuffer
+008001be b twi_rxBufferIndex
+008001bf b twi_error
+008001c0 B TwoWire::rxBuffer
+008001e0 B TwoWire::rxBufferIndex
+008001e1 B TwoWire::rxBufferLength
+008001e2 B TwoWire::txBuffer
+00800202 B TwoWire::txBufferIndex
+00800203 B TwoWire::txBufferLength
+00800204 B TwoWire::transmitting
+00800205 B Wire
+00800211 B SoftwareSerial::active_object
+00800213 B SoftwareSerial::_receive_buffer
+00800253 B SoftwareSerial::_receive_buffer_tail
+00800254 B SoftwareSerial::_receive_buffer_head
+00800255 B ServoCount
+00800256 b servos
+0080027a b Channel
+0080027b B SdFile::dateTime_
+0080027d B SdVolume::cacheBuffer_
+0080047d B SdVolume::sdCard_
+0080047f B SdVolume::cacheDirty_
+00800480 B SdVolume::cacheMirrorBlock_
+00800484 B SD
+008004cd B Firmata
+00800508 b INADDR_NONE
+0080050e b INADDR_NONE
+00800514 B Ethernet
+0080051c b INADDR_NONE
+00800522 b INADDR_NONE
+00800528 b INADDR_NONE
+0080052e b INADDR_NONE
+00800534 B rx_buffer
+00800578 B tx_buffer
+008005bc B Serial
+008005de b INADDR_NONE
+008005e4 B timer0_overflow_count
+008005e8 B timer0_millis
+008005ec b timer0_fract
+008005ed B __bss_end
+008005ed N __heap_start
+008005ed N _end
+00810000 N __eeprom_end
