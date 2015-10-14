@@ -13,6 +13,7 @@
 **AVRDude**: 指定一下avrdude.conf:  arduino-1.0.5\hardware\tools\avr\etc\avrdude.conf
 
 **AVR>Path:** 
+
 	* **gcc:** D:\Program Files\arduino-1.0.5\hardware\tools\avr\bin
 	* **GNU make:** D:\Program Files\arduino-1.0.5\hardware\tools\avr\utils\bin
 	* **AVR Header files:** D:\Program Files\arduino-1.0.5\hardware\tools\avr\avr\include
