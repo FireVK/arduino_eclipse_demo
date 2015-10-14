@@ -1,2 +1,68 @@
 # arduino_eclipse_demo
-arduinoçš„Eclipseçš„å¼€å‘ç¯å¢ƒï¼Œblinkçš„å®éªŒ
+
+±àÒë¾²Ì¬¿âºÍĞÂ½¨Ò»¸öeclipseµÄarduino¹¤³ÌµÄÅäÖÃ¶¼²î²»¶àÒ»¸öÊÇstaticÒ»¸öÊÇapplicationµÄĞÂ½¨
+* ÎªÊ²Ã´Òª±àÒëarduino_core¿â£¿ 
+> > ÒòÎªarduino_coreÊÇ¹Ì¶¨²»±äµÄ£¬ËùÒÔÖ»Òª±àÒëºÃÁË¶¯Ì¬¿â£¬ÏÂ´ÎÖ»ĞèÒªÖ±½ÓÁ´½Ó¹ıÈ¥ÄÃÀ´ÓÃ¾ÍĞĞÁË £¬ÕâÑù¿É¼°½ÚÊ¡±àÒëµÄÊ±¼ä¡£µÚ¶ş¸ö¾ÍÊÇ°²È«Ò»µã£¬Ö±½ÓÓÃ¶¯Ì¬¿â²»»á³öÏÖ²»Ğ¡ĞÄĞŞ¸ÄÁËÄ³Ä³µØ·½
+
+##0. ĞÂ½¨Ö®Ç°ÅäÖÃÒ»ÏÂÈ«¾ÖµÄAVRÅäÖÃ£º 
+* Windows>Preference> AVR:
+**AVRDude**: Ö¸¶¨Ò»ÏÂavrdude.conf:  arduino-1.0.5\hardware\tools\avr\etc\avrdude.conf
+**AVR>Path:** 
+	* **gcc:** D:\Program Files\arduino-1.0.5\hardware\tools\avr\bin
+	* **GNU make:** D:\Program Files\arduino-1.0.5\hardware\tools\avr\utils\bin
+	* **AVR Header files:** D:\Program Files\arduino-1.0.5\hardware\tools\avr\avr\include
+	* **AVRDude:** D:\Program Files\arduino-1.0.5\hardware\tools\avr\bin
+##1. ±àÒë¾²Ì¬µÄarduino_core¿â
+¹©¸øÒÔºóµÄÃ¿´ÎÊ¹ÓÃ
+* C++ staticĞÂ½¨
+* ĞÂ½¨
+	*`src`Ä¿Â¼£º·ÅÄãµÄarduinoµÄÎÄ¼ş
+* project->preference
+	* **AVR**: ´ò¹´enable
+	* **AVR>AVRDude**: new Ò»¸öÅäÖÃÂ¼Èëuno£¬leonador
+	* **AVR>Target**
+	*  **C/C++Build>setting**: AVR compilerºÍAVR C++ compilerÅäÖÃÒ»ÑùµÄ
+		*  Additional Tools in Toolchain: Êä³ö.HEXÎÄ¼ş
+		*  **`Directories`**£ºarduino core¿â£¬arduinolib, lib, src
+		*  debugging: 
+			*  standard debugging info (-g)
+			*  stabs(avr-gdb/Insight)
+		* `Optimization`:ÓÅ»¯´óĞ¡µÄ×÷ÓÃ
+			* È¥µôpack structs(-fpack-structs), Short enums(-fshort-enums)µÄÑ¡Ïî
+			* Other Optimization flags£º`-ffunction-sections -fdata-sections`
+		* AVR Compiler"->"Language standard
+			* È¥µôchar is unsigned(-funsigned-char)
+			* È¥µôbitfiels are unsigned(-funsigned-bitfiels)
+	* ¸´ÖÆÎÄ¼şµ½ÏàÓ¦µÄÎ»ÖÃ
+		* arduino coreÎÄ¼ş
+		* ¶ÔÓ¦°å×ÓµÄpin_arduino.hÎÄ¼ş»òÕß»òÕßËùÓĞ°üº¬pin_arduino.hµÄÄ¿Â¼£¬µ«ÊÇÒªÔÚdirectoriesÖĞ¼ÓÂ·¾¶
+
+		
+
+##2. ÓÃeclipseĞÂ½¨arduino¹¤³Ì
+¹©¸øÒÔºóµÄÃ¿´ÎÊ¹ÓÃ
+* C++ ApplicationĞÂ½¨
+* ĞÂ½¨
+	* `src`Ä¿Â¼£º·ÅÄãµÄarduinoµÄÎÄ¼ş
+	* `arduinolib`Ä¿Â¼£º·Å¹Ù·½Ìá¹©µÄ¿âÈçWifi£¬Entenet¿âµÈ
+	* `lib`Ä¿Â¼£º·ÅÄã×Ô¼ºĞ´µÄ¿â
+* project->preference
+	* **AVR**: ´ò¹´enable
+	* **AVR>AVRDude**: new Ò»¸öÅäÖÃÂ¼Èëuno£¬leonador
+	* **AVR>Target**
+	*  **C/C++Build>setting**: AVR compilerºÍAVR C++ compilerÅäÖÃÒ»ÑùµÄ
+		*  Additional Tools in Toolchain: Êä³ö.HEXÎÄ¼ş
+		*  **`Directories`**£ºarduino core¿â£¬arduinolib, lib, src
+		*  debugging: 
+			*  standard debugging info (-g)
+			*  stabs(avr-gdb/Insight)
+		* `Optimization`:ÓÅ»¯´óĞ¡µÄ×÷ÓÃ
+			* È¥µôpack structs(-fpack-structs), Short enums(-fshort-enums)µÄÑ¡Ïî
+			* Other Optimization flags£º`-ffunction-sections -fdata-sections`
+		* AVR Compiler"->"Language standard
+			* È¥µôchar is unsigned(-funsigned-char)
+			* È¥µôbitfiels are unsigned(-funsigned-bitfiels)
+	* ¸´ÖÆÎÄ¼şµ½ÏàÓ¦µÄÎ»ÖÃ
+		* arduino coreÎÄ¼ş
+		* ¶ÔÓ¦°å×ÓµÄpin_arduino.hÎÄ¼ş»òÕß»òÕßËùÓĞ°üº¬pin_arduino.hµÄÄ¿Â¼£¬µ«ÊÇÒªÔÚdirectoriesÖĞ¼ÓÂ·¾¶
+		* ¸´ÖÆaduinolibµÄÄ¿Â¼
