@@ -8,7 +8,9 @@
 ##0. 新建之前配置一下全局的AVR配置： 
 * Windows>Preference> AVR:
 
+
 **AVRDude**: 指定一下avrdude.conf:  arduino-1.0.5\hardware\tools\avr\etc\avrdude.conf
+
 
 **AVR>Path:** 
 	* **gcc:** D:\Program Files\arduino-1.0.5\hardware\tools\avr\bin
