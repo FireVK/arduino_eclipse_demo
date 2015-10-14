@@ -3,20 +3,21 @@
 编译静态库和新建一个eclipse的arduino工程的配置都差不多一个是static一个是application的新建
 * 为什么要编译arduino_core库？ 
 
+
 >  因为arduino_core是固定不变的，所以只要编译好了动态库，下次只需要直接链接过去拿来用就行了 ，这样可及节省编译的时间。第二个就是安全一点，直接用动态库不会出现不小心修改了某某地方
+
 
 ##0. 新建之前配置一下全局的AVR配置： 
 * Windows>Preference> AVR:
 
-
 **AVRDude**: 指定一下avrdude.conf:  arduino-1.0.5\hardware\tools\avr\etc\avrdude.conf
-
 
 **AVR>Path:** 
 	* **gcc:** D:\Program Files\arduino-1.0.5\hardware\tools\avr\bin
 	* **GNU make:** D:\Program Files\arduino-1.0.5\hardware\tools\avr\utils\bin
 	* **AVR Header files:** D:\Program Files\arduino-1.0.5\hardware\tools\avr\avr\include
 	* **AVRDude:** D:\Program Files\arduino-1.0.5\hardware\tools\avr\bin
+	
 ##1. 编译静态的arduino_core库
 供给以后的每次使用
 * C++ static新建
