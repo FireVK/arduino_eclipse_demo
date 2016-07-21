@@ -1,4 +1,4 @@
-# visul studio也有arduino的插件
+# visul studio也有arduino的插件，还有调试工具，貌似方便
 
 # arduino_eclipse_demo
 
