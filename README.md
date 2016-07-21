@@ -1,16 +1,18 @@
+# visul studioä¹Ÿæœ‰arduinoçš„æ’ä»¶
+
 # arduino_eclipse_demo
 
-±àÒë¾²Ì¬¿âºÍĞÂ½¨Ò»¸öeclipseµÄarduino¹¤³ÌµÄÅäÖÃ¶¼²î²»¶àÒ»¸öÊÇstaticÒ»¸öÊÇapplicationµÄĞÂ½¨
-* ÎªÊ²Ã´Òª±àÒëarduino_core¿â£¿ 
+ç¼–è¯‘é™æ€åº“å’Œæ–°å»ºä¸€ä¸ªeclipseçš„arduinoå·¥ç¨‹çš„é…ç½®éƒ½å·®ä¸å¤šä¸€ä¸ªæ˜¯staticä¸€ä¸ªæ˜¯applicationçš„æ–°å»º
+* ä¸ºä»€ä¹ˆè¦ç¼–è¯‘arduino_coreåº“ï¼Ÿ 
 
 
->  ÒòÎªarduino_coreÊÇ¹Ì¶¨²»±äµÄ£¬ËùÒÔÖ»Òª±àÒëºÃÁË¶¯Ì¬¿â£¬ÏÂ´ÎÖ»ĞèÒªÖ±½ÓÁ´½Ó¹ıÈ¥ÄÃÀ´ÓÃ¾ÍĞĞÁË £¬ÕâÑù¿É¼°½ÚÊ¡±àÒëµÄÊ±¼ä¡£µÚ¶ş¸ö¾ÍÊÇ°²È«Ò»µã£¬Ö±½ÓÓÃ¶¯Ì¬¿â²»»á³öÏÖ²»Ğ¡ĞÄĞŞ¸ÄÁËÄ³Ä³µØ·½
+>  å› ä¸ºarduino_coreæ˜¯å›ºå®šä¸å˜çš„ï¼Œæ‰€ä»¥åªè¦ç¼–è¯‘å¥½äº†åŠ¨æ€åº“ï¼Œä¸‹æ¬¡åªéœ€è¦ç›´æ¥é“¾æ¥è¿‡å»æ‹¿æ¥ç”¨å°±è¡Œäº† ï¼Œè¿™æ ·å¯åŠèŠ‚çœç¼–è¯‘çš„æ—¶é—´ã€‚ç¬¬äºŒä¸ªå°±æ˜¯å®‰å…¨ä¸€ç‚¹ï¼Œç›´æ¥ç”¨åŠ¨æ€åº“ä¸ä¼šå‡ºç°ä¸å°å¿ƒä¿®æ”¹äº†æŸæŸåœ°æ–¹
 
 
-##0. ĞÂ½¨Ö®Ç°ÅäÖÃÒ»ÏÂÈ«¾ÖµÄAVRÅäÖÃ£º 
+##0. æ–°å»ºä¹‹å‰é…ç½®ä¸€ä¸‹å…¨å±€çš„AVRé…ç½®ï¼š 
 * Windows>Preference> AVR:
 
-**AVRDude**: Ö¸¶¨Ò»ÏÂavrdude.conf:  arduino-1.0.5\hardware\tools\avr\etc\avrdude.conf
+**AVRDude**: æŒ‡å®šä¸€ä¸‹avrdude.conf:  arduino-1.0.5\hardware\tools\avr\etc\avrdude.conf
 
 **AVR>Path:** 
 
@@ -19,57 +21,57 @@
 	* **AVR Header files:** D:\Program Files\arduino-1.0.5\hardware\tools\avr\avr\include
 	* **AVRDude:** D:\Program Files\arduino-1.0.5\hardware\tools\avr\bin
 	
-##1. ±àÒë¾²Ì¬µÄarduino_core¿â
-¹©¸øÒÔºóµÄÃ¿´ÎÊ¹ÓÃ
-* C++ staticĞÂ½¨
-* ĞÂ½¨
-	*`src`Ä¿Â¼£º·ÅÄãµÄarduinoµÄÎÄ¼ş
+##1. ç¼–è¯‘é™æ€çš„arduino_coreåº“
+ä¾›ç»™ä»¥åçš„æ¯æ¬¡ä½¿ç”¨
+* C++ staticæ–°å»º
+* æ–°å»º
+	*`src`ç›®å½•ï¼šæ”¾ä½ çš„arduinoçš„æ–‡ä»¶
 * project->preference
-	* **AVR**: ´ò¹´enable
-	* **AVR>AVRDude**: new Ò»¸öÅäÖÃÂ¼Èëuno£¬leonador
+	* **AVR**: æ‰“å‹¾enable
+	* **AVR>AVRDude**: new ä¸€ä¸ªé…ç½®å½•å…¥unoï¼Œleonador
 	* **AVR>Target**
-	*  **C/C++Build>setting**: AVR compilerºÍAVR C++ compilerÅäÖÃÒ»ÑùµÄ
-		*  Additional Tools in Toolchain: Êä³ö.HEXÎÄ¼ş
-		*  **`Directories`**£ºarduino core¿â£¬arduinolib, lib, src
+	*  **C/C++Build>setting**: AVR compilerå’ŒAVR C++ compileré…ç½®ä¸€æ ·çš„
+		*  Additional Tools in Toolchain: è¾“å‡º.HEXæ–‡ä»¶
+		*  **`Directories`**ï¼šarduino coreåº“ï¼Œarduinolib, lib, src
 		*  debugging: 
 			*  standard debugging info (-g)
 			*  stabs(avr-gdb/Insight)
-		* `Optimization`:ÓÅ»¯´óĞ¡µÄ×÷ÓÃ
-			* È¥µôpack structs(-fpack-structs), Short enums(-fshort-enums)µÄÑ¡Ïî
-			* Other Optimization flags£º`-ffunction-sections -fdata-sections`
+		* `Optimization`:ä¼˜åŒ–å¤§å°çš„ä½œç”¨
+			* å»æ‰pack structs(-fpack-structs), Short enums(-fshort-enums)çš„é€‰é¡¹
+			* Other Optimization flagsï¼š`-ffunction-sections -fdata-sections`
 		* AVR Compiler"->"Language standard
-			* È¥µôchar is unsigned(-funsigned-char)
-			* È¥µôbitfiels are unsigned(-funsigned-bitfiels)
-	* ¸´ÖÆÎÄ¼şµ½ÏàÓ¦µÄÎ»ÖÃ
-		* arduino coreÎÄ¼ş
-		* ¶ÔÓ¦°å×ÓµÄpin_arduino.hÎÄ¼ş»òÕß»òÕßËùÓĞ°üº¬pin_arduino.hµÄÄ¿Â¼£¬µ«ÊÇÒªÔÚdirectoriesÖĞ¼ÓÂ·¾¶
+			* å»æ‰char is unsigned(-funsigned-char)
+			* å»æ‰bitfiels are unsigned(-funsigned-bitfiels)
+	* å¤åˆ¶æ–‡ä»¶åˆ°ç›¸åº”çš„ä½ç½®
+		* arduino coreæ–‡ä»¶
+		* å¯¹åº”æ¿å­çš„pin_arduino.hæ–‡ä»¶æˆ–è€…æˆ–è€…æ‰€æœ‰åŒ…å«pin_arduino.hçš„ç›®å½•ï¼Œä½†æ˜¯è¦åœ¨directoriesä¸­åŠ è·¯å¾„
 
 		
 
-##2. ÓÃeclipseĞÂ½¨arduino¹¤³Ì
-¹©¸øÒÔºóµÄÃ¿´ÎÊ¹ÓÃ
-* C++ ApplicationĞÂ½¨
-* ĞÂ½¨
-	* `src`Ä¿Â¼£º·ÅÄãµÄarduinoµÄÎÄ¼ş
-	* `arduinolib`Ä¿Â¼£º·Å¹Ù·½Ìá¹©µÄ¿âÈçWifi£¬Entenet¿âµÈ
-	* `lib`Ä¿Â¼£º·ÅÄã×Ô¼ºĞ´µÄ¿â
+##2. ç”¨eclipseæ–°å»ºarduinoå·¥ç¨‹
+ä¾›ç»™ä»¥åçš„æ¯æ¬¡ä½¿ç”¨
+* C++ Applicationæ–°å»º
+* æ–°å»º
+	* `src`ç›®å½•ï¼šæ”¾ä½ çš„arduinoçš„æ–‡ä»¶
+	* `arduinolib`ç›®å½•ï¼šæ”¾å®˜æ–¹æä¾›çš„åº“å¦‚Wifiï¼ŒEntenetåº“ç­‰
+	* `lib`ç›®å½•ï¼šæ”¾ä½ è‡ªå·±å†™çš„åº“
 * project->preference
-	* **AVR**: ´ò¹´enable
-	* **AVR>AVRDude**: new Ò»¸öÅäÖÃÂ¼Èëuno£¬leonador
+	* **AVR**: æ‰“å‹¾enable
+	* **AVR>AVRDude**: new ä¸€ä¸ªé…ç½®å½•å…¥unoï¼Œleonador
 	* **AVR>Target**
-	*  **C/C++Build>setting**: AVR compilerºÍAVR C++ compilerÅäÖÃÒ»ÑùµÄ
-		*  Additional Tools in Toolchain: Êä³ö.HEXÎÄ¼ş
-		*  **`Directories`**£ºarduino core¿â£¬arduinolib, lib, src
+	*  **C/C++Build>setting**: AVR compilerå’ŒAVR C++ compileré…ç½®ä¸€æ ·çš„
+		*  Additional Tools in Toolchain: è¾“å‡º.HEXæ–‡ä»¶
+		*  **`Directories`**ï¼šarduino coreåº“ï¼Œarduinolib, lib, src
 		*  debugging: 
 			*  standard debugging info (-g)
 			*  stabs(avr-gdb/Insight)
-		* `Optimization`:ÓÅ»¯´óĞ¡µÄ×÷ÓÃ
-			* È¥µôpack structs(-fpack-structs), Short enums(-fshort-enums)µÄÑ¡Ïî
-			* Other Optimization flags£º`-ffunction-sections -fdata-sections`
+		* `Optimization`:ä¼˜åŒ–å¤§å°çš„ä½œç”¨
+			* å»æ‰pack structs(-fpack-structs), Short enums(-fshort-enums)çš„é€‰é¡¹
+			* Other Optimization flagsï¼š`-ffunction-sections -fdata-sections`
 		* AVR Compiler"->"Language standard
-			* È¥µôchar is unsigned(-funsigned-char)
-			* È¥µôbitfiels are unsigned(-funsigned-bitfiels)
-	* ¸´ÖÆÎÄ¼şµ½ÏàÓ¦µÄÎ»ÖÃ
-		* arduino coreÎÄ¼ş
-		* ¶ÔÓ¦°å×ÓµÄpin_arduino.hÎÄ¼ş»òÕß»òÕßËùÓĞ°üº¬pin_arduino.hµÄÄ¿Â¼£¬µ«ÊÇÒªÔÚdirectoriesÖĞ¼ÓÂ·¾¶
-		* ¸´ÖÆaduinolibµÄÄ¿Â¼
+			* å»æ‰char is unsigned(-funsigned-char)
+			* å»æ‰bitfiels are unsigned(-funsigned-bitfiels)
+	* å¤åˆ¶æ–‡ä»¶åˆ°ç›¸åº”çš„ä½ç½®
+		* arduino coreæ–‡ä»¶
+		* å¯¹åº”æ¿å­çš„pin_arduino.hæ–‡ä»¶æˆ–è€…æˆ–è€…æ‰€æœ‰åŒ…å«pin_arduino.hçš„ç›®å½•ï¼Œä½†æ˜¯è¦åœ¨directoriesä¸­åŠ è·¯å¾„
+		* å¤åˆ¶aduinolibçš„ç›®å½•
